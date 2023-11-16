@@ -4,10 +4,10 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Journeyman {
+public class Journeyman1 {
 
     @Autowired
-	@Qualifier("pleasePaint")
+	@Qualifier("Drilling")
     Work work;
 
     public void performWork() {
