@@ -18,10 +18,10 @@ public class FirstService {
 //	}
 	
 	// Setter Injection
-//	@Autowired
-//	public void setSecondService(SecondService secondService) {
-//		this.secondService = secondService;
-//	}
+	//@Autowired
+	//public void setSecondService(SecondService secondService) {
+	//	this.secondService = secondService;
+	//}
 	
 	public void doSomething() {
 		secondService.doSomething();
