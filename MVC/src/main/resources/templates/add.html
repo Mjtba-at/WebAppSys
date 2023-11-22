@@ -5,6 +5,8 @@
     </head>
     <body>
         <h1>User added</h1>
+<!--- Hier werden Thymeleaf-Attributen (th:text) verwendet, um dynamisch Daten aus dem Model-Objekt abzurufen und in die HTML-Seite einzufügen.-->
+<!--Zum Beispiel wird ${user.id} durch den tatsächlichen Wert der id-Eigenschaft des Model-Objekts "user" ersetzt.-->
         <p>User ID: <b th:text="${user.id}">Id</b></p>
         <p>Firstname: <b th:text="${user.firstName}">First Name</b></p>
         <p>Lastname: <b th:text="${user.lastName}">Last Name</b></p>
