@@ -27,7 +27,7 @@ public class InitData {
         user.setLastName("Administrator");
         user.setEmail("admin@example.com");
         user.setPassword("extremeSecurePassword1234");
-        userService.createUser(user);
+        userService.createUser(user); // diese Methode ist in Service kalssund wird abgefufeb um die daten in DB zu speichern 
 
         log.debug("create user alice");
         user = new User();

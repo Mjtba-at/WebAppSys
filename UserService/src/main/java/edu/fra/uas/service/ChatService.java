@@ -46,7 +46,7 @@ public class ChatService {
 
         headers.add("Authorization", "Basic " + base64Creds);
 
-        //headers.add(authenticationTokenHeaderName, authenticationToken);
+        headers.add(authenticationTokenHeaderName, authenticationToken);
 
         return headers;
     }
